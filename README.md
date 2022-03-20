@@ -37,9 +37,17 @@
 
 ## Objetivo do projeto de machine learning
 
-Aplicando machine learning na área de finanças. Realizei alguns projetos de finanças como provisão de ações, lucros, previsão bitcoin útilizando modelos ARIMA, SARIMA, AR.
-Projeto foi feito em python ou R.
-Os projetos estão na pasta Jupyter Notebook. 
+Aplicando machine learning na área de finanças. Realizei alguns projetos de finanças como provisão de ações, lucros, previsão bitcoin útilizando modelos ARIMA, SARIMA, AR. Projeto foi feito em python ou R. Os projetos estão na pasta Jupyter Notebook. 
+
+## Projeto ML Climate 
+
+| Nome             | Projeto                                                          |
+| ----------------- | ------------------------------------------------------------------ |
+|Modelo regressão linear - Ações Google|[Link](https://github.com/RafaelGallo/M.L---Financial-market/blob/main/notebooks/Modelo%20regress%C3%A3o%20linear/M.L%20A%C3%A7%C3%B5es%20do%20Google%20Previs%C3%A3o%20v2.ipynb)|
+|Modelo Time series Google - Ações Google|[Link](https://github.com/RafaelGallo/M.L---Financial-market/blob/main/notebooks/Time%20series%20Google/Model%20-%20time%20series%20Google.ipynb)|
+|Modelo Time series Netflix - Ações Netflix|[Link](https://github.com/RafaelGallo/M.L---Financial-market/blob/main/notebooks/Time%20series%20Netflix/Model%20time%20series%20Netflix.ipynb)|
+|Modelo Time series StarLink - Ações StarLink|[Link](https://github.com/RafaelGallo/M.L---Financial-market/blob/main/notebooks/Time%20series%20StarLink/Time%20series%20StarLink%20.ipynb)|
+|Modelo Time Time series Uber - Ações Uber|[Link](https://github.com/RafaelGallo/M.L---Financial-market/blob/main/notebooks/Time%20series%20Uber/Time%20series%20Uber.ipynb)|
 
 
 ## Stack utilizada
@@ -106,6 +114,7 @@ Instalação das bibliotecas para esse projeto no python.
   scipy==1.0.0
   matplotlib==2.1.2
 ```
+
 Instalação do Python É altamente recomendável usar o anaconda para instalar o python. Clique aqui para ir para a página de download do Anaconda https://www.anaconda.com/download. Certifique-se de baixar a versão Python 3.6. Se você estiver em uma máquina Windows: Abra o executável após a conclusão do download e siga as instruções. 
 
 Assim que a instalação for concluída, abra o prompt do Anaconda no menu iniciar. Isso abrirá um terminal com o python ativado. Se você estiver em uma máquina Linux: Abra um terminal e navegue até o diretório onde o Anaconda foi baixado. 
@@ -131,8 +140,10 @@ Agora que temos nosso ambiente Python todo configurado, podemos começar a traba
 ```bash
 jupyter notebook
 ```
-    
+
+
 ## Demo modelo machine learning - Regressão linear
+
 
 ```bash
   # Carregando as bibliotecas 
@@ -237,8 +248,6 @@ jupyter notebook
   
   with open('modelo_regreesao_pred.pkl', 'wb') as file:
     pickle.dump(modelo_regreesao_pred, file)
-
-
 ```
 
 
@@ -247,8 +256,6 @@ jupyter notebook
 Que melhorias você fez no seu código? 
 - Ex: refatorações, melhorias de performance, acessibilidade, etc
 
-
 ## Suporte
 
 Para suporte, mande um email para rafaelhenriquegallo@gmail.com
-
